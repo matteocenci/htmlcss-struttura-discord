@@ -6,12 +6,10 @@
     box-sizing: border-box;
 }
 
+/* COMMON */
 .header div{
-    background-color: yellow;
+    background-color: orange;
 }
-
-
-
 
 .header{
     display: flex;
@@ -22,13 +20,22 @@
     align-items: center;
 
     /* debug */
-    background-color: aqua;
+    background-color: lightgray;
+}
+
+
+#text-right{
+    text-align: right;
+}
+
+#text-left{
+    text-align: left;
 }
 
 .menu-box{
     text-align: center;
     width: 200px;
-    padding: 10px;
+    padding: 5px;
     border: 1px dashed black;
     
     
@@ -38,6 +45,7 @@
  .logo{
     width: 30%;
 }
+
 
 
 
