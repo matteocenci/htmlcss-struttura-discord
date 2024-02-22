@@ -8,6 +8,11 @@
 
 /* COMMON */
 /* Header */
+hr{
+    border: 1px solid #d3d3d3;
+    height: 2px;
+    
+}
 .header div{
     background-color: #ffa500;
 }
@@ -159,8 +164,74 @@
 /* /Fifth Block */
 /* /Main */
 
+.footer{
+    display: flex;
+    flex-direction: row;
+    height: 400px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-start;
+    background-color: #23272A;
+}
+
+.footer-content{
+    display: flex;
+    margin: 10px;
+    width: 50%;
+    height: 80%;
+}
+    
+    
+    
+
+    
+
+.large-box{
+    width: 40%;
+    border: 2px dashed #000000;
+
+    background-color: #f08080;
+}
+
+.small-box{
+    width: 15%;
+    border: 1px dashed #f5f5f5;
+
+    background-color: #20B2AA;
+}
 
 
+.bottom-footer{
+    display: flex;
+    flex-direction: row;
+    height: 50px;
+    width: 100%;
+    justify-content: center;
+    align-items: flex-end;
+    background-color: #23272A;
+}
+
+.bottom-content{
+    display: flex; 
+    justify-content: space-between;
+    align-items: center;
+
+    width: 50%;
+    height: 80%;
+    
+    
+
+    background-color: #7FFFD4;
+}
+
+.logo-bottom{
+    background-color: #f08080;
+    border: 1px dashed #000000;
+}
+
+.bottom-button{
+    background-color: #f08080;
+}
 
 
 
