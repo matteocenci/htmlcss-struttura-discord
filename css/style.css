@@ -164,6 +164,9 @@ hr{
 /* /Fifth Block */
 /* /Main */
 
+
+
+/* Footer */
 .footer{
     display: flex;
     flex-direction: row;
@@ -232,6 +235,7 @@ hr{
 .bottom-button{
     background-color: #f08080;
 }
+/* /Footer */
 
 
 
