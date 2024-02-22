@@ -7,6 +7,7 @@
 }
 
 /* COMMON */
+/* Header */
 .header div{
     background-color: orange;
 }
@@ -46,7 +47,28 @@
 .logo{
    width: 30%;
 }
+/* /Header */
 
+/* Main */
+.first-block{
+    width: 100%;
+    height: 500px;  
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+
+    /* debug */
+    background-color: blue;
+}
+
+.first-content{
+    width: 60%;
+    height: 300px;
+    border: 3px dashed black;
+
+    background-color: pink;
+}
+/* /Main */
 
 
 
